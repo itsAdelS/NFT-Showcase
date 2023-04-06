@@ -12,7 +12,7 @@ const SectionWrapper = ({title, description, showBtn, mockupImg, banner, reverse
             <h1 className={`${reverse? styles.blackText : styles.whiteText} ${styles.h1Text}`}>{title}</h1>
             <p className={`${reverse? styles.blackText : styles.whiteText} ${styles.descriptionText}`}>{description}</p>
             {showBtn &&(
-                <Button assetsUrl={assets.expo} link=""/>
+                <Button assetsUrl={assets.expo} link="https://expo.dev/@adelasliman/slisoftNFT?serviceType=classic&distribution=expo-go"/>
             )}
             </div>
             <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
