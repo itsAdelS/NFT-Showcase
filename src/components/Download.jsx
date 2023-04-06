@@ -16,7 +16,7 @@ const Download = () => {
             </button>
 
             <div className={styles.flexCenter}>
-                <img src={assets.scene} alt="download_png" className={styles.fullImg}/>
+                <img src={assets.scene} alt="download_png" className={styles.fullImg} href="https://github.com/itsAdelS/SlisoftNFT"/>
             </div>
         </div>
     </div>
